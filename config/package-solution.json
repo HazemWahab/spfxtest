@@ -1,14 +1,40 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
   "solution": {
-    "name": "anatomy-demo-client-side-solution",
-    "id": "98b1b8c5-1934-453e-9e89-354240f0537c",
+    "name": "testspfxdemo-client-side-solution",
+    "id": "780a8162-114f-481b-9f9a-239e8ff7a5e1",
     "version": "1.0.0.0",
     "includeClientSideAssets": true,
-    "skipFeatureDeployment": false,
-    "isDomainIsolated": false
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "testspfxdemo description"
+      },
+      "longDescription": {
+        "default": "testspfxdemo description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "testspfxdemo Feature",
+        "description": "The feature that activates elements of the testspfxdemo solution.",
+        "id": "4612115b-20bf-43e1-952c-9dc3f2a99ede",
+        "version": "1.0.0.0"
+      }
+    ]
   },
   "paths": {
-    "zippedPackage": "solution/anatomy-demo.sppkg"
+    "zippedPackage": "solution/testspfxdemo.sppkg"
   }
 }
